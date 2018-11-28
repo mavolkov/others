@@ -13,6 +13,7 @@ done_number = 0             # счетчик выполненных
 fail_number = 0             # счетчик ошибок
 link_number = 0             # счетчик пройденных ссылок
 driver = webdriver.Chrome('/Users/misha/Desktop/extract/chromedriver')  # переменная браузера
+# драйвер скачивать тут https://sites.google.com/a/chromium.org/chromedriver/home
 for link in links:          # идем по всем ссылкам
     driver.get(link)        # открываем страницу
     try:
