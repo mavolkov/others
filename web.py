@@ -32,7 +32,7 @@ for link in links:          # идем по всем ссылкам
 print('Done : ', done_number)
 print('Fail : ', fail_number)
 print('Total: ', link_number)
-
+ 
 print('\nFinished\n')
 # time.sleep(18000)  # пауза на 5 часов
 # driver.close()  # закрываем браузер
