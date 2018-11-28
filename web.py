@@ -21,12 +21,13 @@ for link in links:          # идем по всем ссылкам
         link_number += 1    # +1 ссылка
         fail_number += 1    # +1 ошибка
         print("пусто   по ссылке №", link_number)
+        time.sleep(2)       # ждем 2 сек.
     else:                   # если не было исключения
         element.click()     # нажимаем
         link_number += 1    # +1 ссылка
         done_number += 1    # +1 выполненная
         print('скачено по ссылке №', link_number)
-        time.sleep(2)       # ждем 2 сек.
+        time.sleep(3)       # ждем 3 сек.
 
 print('Done : ', done_number)
 print('Fail : ', fail_number)
