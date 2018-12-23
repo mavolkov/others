@@ -1,6 +1,8 @@
 import telebot
 
-token = "PUT_YOUR_BOT_TOKEN_HERE"
+# api: https://core.telegram.org/bots/api/
+
+token = "716597993:AAEbuSasajgXDTLuWfqfelV3GNUOmN1bngs"
 bot = telebot.TeleBot(token)
 
 # bot.send_message(976475, "test from pycharm")
