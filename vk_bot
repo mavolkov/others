@@ -24,3 +24,4 @@ while True:
                           {"peer_id": id, "message": "Не понял тебя...", "random_id": random.randint(1, 2147483647)})
     except Exception as E:
         time.sleep(1)
+
